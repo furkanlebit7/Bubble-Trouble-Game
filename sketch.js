@@ -28,7 +28,7 @@ function draw() {
   if (!IsGameOver && !victory) {
     update();
   }
-  render(x);
+  render();
 
   // requestAnimationFrame(start);
   score();

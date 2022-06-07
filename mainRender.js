@@ -1,10 +1,10 @@
-function render(ctx) {
-  arr.draw(ctx);
+function render() {
+  arr.draw();
 
   for (let ball of balls) {
-    ball.draw(ctx);
+    ball.draw();
   }
-  hero.draw(ctx);
+  hero.draw();
   score();
 
   if (hero.isHit) {
