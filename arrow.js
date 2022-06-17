@@ -23,6 +23,7 @@ class Arrow {
     this.liveArr = true;
   }
 
+  //atış yaptıktan sonra atış ayarlarını sıfırlar
   update() {
     if (!this.liveArr) {
       return; //atış yoksa update çalışmaz
@@ -34,6 +35,8 @@ class Arrow {
       this.x = window.height;
     }
   }
+
+  //atış animasyonunun çalıştırır
   draw() {
     if (!this.liveArr) return;
     line(this.x + 25, windowHeight, this.x + 25, this.y);

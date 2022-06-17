@@ -23,7 +23,7 @@ function update() {
       let currentLife = hero.life - 1;
       hero = new Hero(currentLife);
       hero.isHit = false;
-      ball = new Ball(50, 200, 10, 1);
+      ball = new Ball(50, 200, 20, 1);
       balls = [];
       balls.push(ball);
       arr = new Arrow();

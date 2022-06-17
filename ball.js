@@ -66,7 +66,7 @@ class Ball {
     }
   }
   splitToBalls(balls) {
-    if (this.gen > 2) {
+    if (this.gen > 3) {
       return;
     }
 

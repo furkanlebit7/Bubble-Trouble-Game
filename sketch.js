@@ -17,7 +17,7 @@ function setup() {
   imgFreddie = loadImage("./images/Victory338x450.png");
   x = createCanvas(windowWidth, windowHeight);
   hero = new Hero(5);
-  ball = new Ball(200, 200, 10, 1);
+  ball = new Ball(200, 200, 20, 1);
   balls = [];
   balls.push(ball);
   arr = new Arrow();
@@ -30,7 +30,6 @@ function draw() {
   }
   render();
 
-  // requestAnimationFrame(start);
   score();
 }
 function keyPressed() {
